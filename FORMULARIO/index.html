@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>FORMULARIO</title>
+    </head>
+    <body>
+        <div class="container">
+            <p>In</p>
+            <form action="Visual/received.html" method="get">
+
+                <label for="name">Nombre:</label>
+                <input type="text" placeholder="Escriba aqui su nombre" id="name" name="name">
+
+                <label for="sirname">Apellido/s:</label>
+                <input type="text" placeholder="Escriba aqui su nombre" id="sirname" name="sirname" required>
+
+                <label for="email">Correo Electronico:</label>
+                <input type="email" placeholder="Escriba aqui su correo" id="email" name="email" required>
+
+                <label for="age">Edad:</label>
+                <input type="number" placeholder="Escriba aqui su correo" id="email"name="age" required min="18" max="150">
+
+                <label for="subject">Asunto</label>
+                <input type="text" placeholder="Escriba aqui..." id="email" name="subject" maxlength="40">
+
+                <label for="comment">Comentario:</label>
+                <textarea placeholder="Escriba aqui..." id="email" required maxlength="40">
+                </textarea>
+
+                <input type="submit" value="Enviar">
+
+
+
+            </form>
+        </div>
+    </body>
+</html>
