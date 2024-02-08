@@ -13,6 +13,8 @@ img{
 .arrival{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
 }
 .img{
     width: 30%;
@@ -21,9 +23,7 @@ img{
     padding: 10px;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    
-
+ 
 }
 
 form{
@@ -60,4 +60,9 @@ form{
     padding: 20px;
     display: flex;
     justify-content: end;
+}
+
+@media screen {
+
+    
 }
