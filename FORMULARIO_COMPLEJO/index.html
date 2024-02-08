@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>FORMULARIO COMPLETO</title>
+    </head>
+    <body>
+        <div class="container">
+        <!--Primer Formulario-->
+        <form action=https://formsubmit.io/send/franciscofarrando@hotmail.com > 
+            <fieldset class="form">
+                <legend>Informacion</legend>
+                
+
+                    <label for="name">Nombre:</label>
+                    <input type="text" placeholder="Escriba aqui su nombre"
+                        id="name" name="name">
+                    <br>
+
+                    <label for="sirname">Apellido/s:</label>
+                    <input type="text" placeholder="Escriba aqui su nombre"
+                        id="sirname" name="sirname" required>
+                    <br>
+                    <label for="email">Correo Electronico:</label>
+                    <input type="email" placeholder="Escriba aqui su correo"
+                        id="email" name="email" required>
+                    <br>
+                                
+                    <label for="subject">Asunto</label>
+                    <select name="trip" id="trip">
+                        <option value="quote">Presupuesto</option>
+                        <option value="buy">Comprar</option>
+                    </select>
+
+                
+
+            </fieldset>
+
+            <!--Segundo Formulario-->
+            
+            <fieldset class="form">
+                <legend>Arma tu viaje</legend>
+                <div class="departure">
+                <label for="aiport1">Destino:</label>
+                <select name="aiport1" id="aiport1">
+                    <option value="A0">Elegir Ciudad...</option>
+                    <option value="A1">BARCELONA</option>
+                    <option value="A2">GIRONA</option>
+                    <option value="A3">TARRAGONA</option>
+                </select>
+            </div>
+            <br>
+            <div class="arrival">
+                <label for="aiport2">Arribo:</label>
+                <br>
+                <div class="img"><img src="img/roma.jpg" alt="">
+                            <input type="radio" name="location">ROMA</div>
+
+                <div class="img"><img src="img/paris.jpg" alt="">
+                <input type="radio" name="location">PARIS</div>
+
+                <div class="img"><img src="img/paris.jpg" alt="">
+                <input type="radio" name="location">BERLIN</div>
+                    
+                </select>
+            </div>
+                
+            </fieldset>
+<br>
+            <div>
+            <input type="submit" value="Enviar" action="">
+            </div>
+        </form>
+    </div>
+    </body>
+</html>
