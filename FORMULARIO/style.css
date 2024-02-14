@@ -1,0 +1,58 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 340px;
+    margin: 3em;
+    border: 2px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    
+
+
+}
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    height: 37px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    font-weight: bolder;
+    }
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+      
+}
+label{
+    display: block;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+input{
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 2px;
+    
+}
+textarea{
+    display: block;
+    width: 300px;
+    height: 100px;
+    margin-bottom: 2px;
+    
+}
+#submit{
+    display: flex;
+    justify-content: center;
+}
+

@@ -7,34 +7,55 @@
         <title>FORMULARIO</title>
     </head>
     <body>
-        <div class="container">
-            <p>Info</p>
-            <form action="Visual/received.html" method="get">
+        <header>
 
-                <label for="name">Nombre:</label>
-                <input type="text" placeholder="Escriba aqui su nombre" id="name" name="name">
+        </header>
 
-                <label for="sirname">Apellido/s:</label>
-                <input type="text" placeholder="Escriba aqui su nombre" id="sirname" name="sirname" required>
+        <main>
+            <div class="container">
+                <div class="title">
+                    <a>Información</a>
+                </div>
 
-                <label for="email">Correo Electronico:</label>
-                <input type="email" placeholder="Escriba aqui su correo" id="email" name="email" required>
+                
+                <div class="form" >
+                <form action="Visual/received.html" method="get">
 
-                <label for="age">Edad:</label>
-                <input type="number" placeholder="Escriba aqui su correo" id="email"name="age" required min="18" max="150">
-
-                <label for="subject">Asunto</label>
-                <input type="text" placeholder="Escriba aqui..." id="email" name="subject" maxlength="40">
-
-                <label for="comment">Comentario:</label>
-                <textarea placeholder="Escriba aqui..." id="email" required maxlength="40">
+                    <label for="name">Nombre:</label>
+                    <input type="text" placeholder="Escriba aqui su nombre"
+                        id="name" name="name">
+<br>
+                    <label for="sirname">Apellido/s:</label>
+                    <input type="text" placeholder="Escriba aqui su nombre"
+                        id="sirname" name="sirname" required>
+<br>
+                    <label for="email">Correo Electronico:</label>
+                    <input type="email" placeholder="Escriba aqui su correo"
+                        id="email" name="email" required>
+<br>
+                    <label for="age">Edad:</label>
+                    <input type="number"
+                        placeholder="Escriba aqui su correo" id="email"
+                        name="age" required min="18" max="150">
+<br>
+                    <label for="subject">Asunto</label>
+                    <input type="text" placeholder="Escriba aqui..."
+                        id="email" name="subject" maxlength="40">
+<br>
+                    <label for="comment">Comentario:</label>
+                    <textarea placeholder="Escriba aqui..." id="email"
+                        required maxlength="200">
                 </textarea>
+<br>
+                    <input id="submit" type="submit" value="Enviar">
 
-                <input type="submit" value="Enviar">
+                </form>
+            </div>
+            </div>
+        </main>
 
+        <footer>
 
-
-            </form>
-        </div>
+        </footer>
     </body>
 </html>
